@@ -24,7 +24,7 @@ namespace CsharpKrokodilleOppgave
             string input = Console.ReadLine();
 
             
-            if (string.Equals(input, "<") || string.Equals(input, ">") || string.Equals(input, "=") )
+            if (input == "<" || input == ">" || input == "=" )
             {
                 if (randomNr > randomNr2)
                 {
